@@ -5,12 +5,7 @@ engines:
     config: tslint.json
     enabled: true
 exclude_paths:
-  - bin
   - node_modules
-  - typings
-  - coverage
-  - dist
 ratings:
   paths:
     - "**.ts"
-    - "**.tsx"
